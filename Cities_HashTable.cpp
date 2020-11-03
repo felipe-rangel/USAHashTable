@@ -10,11 +10,11 @@ struct place{
    string state,name;
    double area,lat,lon,dist;
    place(int nc, string st, string na, int p, double a, double la, double lo, int rc, double d){
-    nCode=nc; state=st;
-		name=na; pop=p;
-		area=a; lat=la;
-		lon=lo; rCode=rc;
-		dist=d;
+	   nCode=nc; state=st;
+	   name=na; pop=p;
+	   area=a; lat=la;
+	   lon=lo; rCode=rc;
+	   dist=d;
 	} 
 };
 struct node{
